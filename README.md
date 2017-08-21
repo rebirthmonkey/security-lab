@@ -1,9 +1,6 @@
-# hello-cyber-security
+# hello-hacking
+This is a tutorial about different hacking technologies
 
-This is a tutorial about different cyber-security technologies
-
-## Network Scanning
-
-- Link Layer: 
-  - [check the switch forewarding database](network-scanning/l2/switch-forewarding-db.md)
-  - [ARP sniffer](network-scanning/l2/arp-sniffer.md)
+## Network Hacking
+- L2: [L2 hacking](l2/README.md)
+- L3: [L3 hacking](l3/README.md)
