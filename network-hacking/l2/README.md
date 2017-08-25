@@ -1,6 +1,6 @@
-# L2 
-## Ethernet
-### Ethernet Frame Inspection
+# L2 Networking
+## Ethernet Protocol Inspection 
+### Ethernet Frame Format
 - using `wireshark` to capture a network interface
 
 ### Switch Forwarding DB
@@ -14,9 +14,9 @@ As shown in the figure:
 ### OpenVSwitch VLAN Checking
 
 
-## ARP
-### ARP Protocol Inspection
+## ARP Protocol Inspection
 - in one terminal: `sudo tcpdump -e -n arp`
 - in another terminal: `sudo apring -I eno1 172.16.254.253`
 
+## ARP-related Hacking
 ### ARP Poisoning
