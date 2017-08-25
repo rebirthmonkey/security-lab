@@ -11,8 +11,13 @@ As shown in the figure:
 - check the switch forwarding DB: `brctl showmacs br88`
 - clean the execution environment with the [script](ns-br-ns-clean.sh)
 
-### OpenVSwitch VLAN Checking
+### OpenVSwitch VLAN Network
+As shown in the figure:
+![VLAN networks through Linux bridges and OVS](multi-ns-br-ovs.jpg)
 
+- using the [script1](multi-ns-br-ovs-1.sh) and [script2](multi-ns-br-ovs-2.sh) to create VLAN networks
+- check connectivity between VLAN networks `sudo ip netns exec green pig 192.168.1.xx`
+- clean the execution environment with the [script](multi-ns-br-ovs-clean.sh)
 
 ## ARP Protocol Inspection
 - in one terminal: `sudo tcpdump -e -n arp`
