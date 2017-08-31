@@ -1,10 +1,20 @@
 # L4 Transport Layer
 ## UDP
-### UDP Protocol
+
+## TCP
+### TCP Protocol
 - on **192.168.88.2**: `nc -l 8888`
 - on **192.168.88.3**: `nc 192.168.88.2 8888`
 
-## TCP
+### TCP Establish and Termination 
+- on **host**: launch **apache2** service
+- on **host**: launch **wireshark** 
+- on **host**: `nc 127.0.0.1 80`, when the connection established, enter 2 time to leave `nc`
+
+### TCP Reset
+- on **host**: launch **apache2** service
+- on **host**: launch **wireshark** 
+- on **host**: `nc 127.0.0.1 9999`
 
 
 ## DNS
