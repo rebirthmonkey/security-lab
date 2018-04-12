@@ -1,0 +1,3 @@
+[Wed Apr 11 13:02:10.324721 2018] [mpm_prefork:notice] [pid 505] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Apr 11 13:02:10.324770 2018] [core:notice] [pid 505] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 11 13:05:10.152423 2018] [:error] [pid 511] [client 172.17.0.1:52466] PHP Notice:  Undefined variable: DBMS_errorFunc in /var/www/html/dvwa/includes/dvwaPage.inc.php on line 465

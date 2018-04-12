@@ -1,6 +1,8 @@
 # DVWA
-
 ## Installation
-- `docker pull infoslack/dvwa`
-- `docker run -d -p 80:80 infoslack/dvwa`
-- or `docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" infoslack/dvwa`
+- `docker pull wukongsun/dvwa:2018-04`
+- `mkdir -p log/apache2`
+- `docker run --name dvwa -itd -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" -v $(pwd)/log/apahce2:/var/log/apache2 wukongsun/dvwa:2018-04`
+- login: admin, password: password
+
+
