@@ -1,5 +1,5 @@
-# hello-hacking
-This is a tutorial about different hacking technologies
+# Security Lab
+This is a tutorial about different security technology labs
 ## Cryptography
 [Cryptography](cryptography/README.md)
 
