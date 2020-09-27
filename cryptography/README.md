@@ -30,6 +30,5 @@
 - `grep "return code" digicert.out`: check return status
 - `openssl x509 -in digicert.out -out digicert.pem`: get the certificate
 - `openssl x509 -in digicert.pem -text`: display the certificate content
-- `CERT=DigiCertHighAssuranceEVCA-1.pem`, `openssl ocsp -issuer $CERT -cert digicert.pem \
--url http://ocsp.digicert.com -VAfile $CERT -no_nonce -text`: verify the certificate
+- `CERT=DigiCertHighAssuranceEVCA-1.pem`, `openssl ocsp -issuer $CERT -cert digicert.pem -url http://ocsp.digicert.com -VAfile $CERT -no_nonce -text`: verify the certificate
 
