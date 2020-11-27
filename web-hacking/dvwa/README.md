@@ -14,7 +14,7 @@ Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is da
 
 ## 无效输入
 
-- [无效输入](invalide-input)
+- [无效输入](invalide-input.md)
 
 ## Browser-side
 
